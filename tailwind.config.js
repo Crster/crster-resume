@@ -8,6 +8,10 @@ module.exports = {
     container: {
       center: true,
       padding: "2rem"
+    },
+    colors: {
+      primary: '#5c6ac4',
+      secondary: '#ecc94b',
     }
   },
   plugins: [],

@@ -8,15 +8,18 @@ function Skill() {
     { name: "React", level: "Proficient" },
     { name: "Java", level: "Novice" },
     { name: "Php", level: "Novice" },
+    { name: "Express JS", level: "Proficient" },
+    { name: "Mongodb", level: "Proficient" },
+    { name: "MySQL", level: "Proficient" },
   ]);
 
   return (
     <div>
-      <h2 className="uppercase font-bold border-b-4">Skills</h2>
+      <h2 className="uppercase text-xl font-bold border-b-4 text-primary">Skills</h2>
       <ul className="mt-3">
         {skills.map((ii) => (
           <li className="flex gap-2">
-            <BsDot size={25} />
+            <BsDot size={25} className="text-primary"/>
             <span>{ii.name}</span>
           </li>
         ))}

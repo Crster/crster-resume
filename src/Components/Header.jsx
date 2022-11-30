@@ -11,9 +11,9 @@ function Header() {
 
       <div className="col-span-2">
         <h1 className="text-3xl">Amiel Hussien</h1>
-        <h1 className="text-5xl font-bold">Dagadas</h1>
+        <h1 className="text-5xl font-bold text-primary">Dagadas</h1>
         <p className="text-xl mt-4">
-          Senior fullstack developer
+          Full Stack Developer
         </p>
       </div>
     </div>

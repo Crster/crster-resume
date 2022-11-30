@@ -1,9 +1,9 @@
 function Profile() {
   return (
     <div>
-      <h2 className="uppercase font-bold border-b-4">Profile</h2>
+      <h2 className="uppercase text-xl font-bold border-b-4 text-primary">Profile</h2>
       <p className="mt-3">
-        Hi am a developer in heart. I love creating application that is optimize and very good system. I am willing to learn more
+        I am an experienced software engineer that is constantly looking for innovative solutions to daily challenges. In my ten years doing software development, I've honed my analytical thinking and collaboration skills, and I love working with a team. In addition, I had the opportunity to lead three projects with Four13 Group as a software engineer.
       </p>
     </div>
   );
