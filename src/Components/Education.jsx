@@ -6,7 +6,7 @@ function Education() {
       school: "Digital Systems Institute",
       address: "Digos City, PH",
       date: "2010 - 2012",
-      course: "Computer Programming NC 4",
+      course: "Computer Programming NC IV",
     },
     {
       school: "Notre Dame University",
@@ -18,14 +18,14 @@ function Education() {
 
   return (
     <div>
-      <h2 className="uppercase text-xl font-bold border-b-4 text-primary">
+      <h2 className="uppercase text-xl font-bold border-b-4 text-primary mb-3">
         Education
       </h2>
       {educations.map((ii) => (
-        <div className="flex flex-col my-3">
-          <span className="text-lg">{ii.date}</span>
-          <span className="text-xl font-bold">{ii.school}</span>
-          <span className="text-base">{ii.course}</span>
+        <div className="flex flex-col mb-6">
+          <span>{ii.date}</span>
+          <span className="text-lg font-bold text-primary">{ii.school}</span>
+          <span>{ii.course}</span>
         </div>
       ))}
     </div>

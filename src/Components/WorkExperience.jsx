@@ -1,6 +1,6 @@
 import React from "react";
 
-function WorkExperience() {
+function WorkExperience({ className }) {
   const [experiences] = React.useState([
     {
       project: "Replen Dashboard",
@@ -53,14 +53,14 @@ function WorkExperience() {
   ]);
 
   return (
-    <div>
-      <h2 className="uppercase text-xl font-bold border-b-4 text-primary">Work Experience</h2>
+    <div className={className}>
+      <h2 className="uppercase text-xl font-bold border-b-4 text-primary mb-3">Work Experience</h2>
       {experiences.map((ii) => (
-        <div className="flex flex-col my-3">
+        <div className="flex flex-col mb-6">
           <span>{ii.date}</span>
           <span className="text-lg font-bold text-primary">{ii.project}</span>
           <span>{ii.company}</span>
-          <p className="mt-3">{ii.description}</p>
+          <p className="mt-3 text-sm">{ii.description}</p>
         </div>
       ))}
     </div>

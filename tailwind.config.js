@@ -10,8 +10,11 @@ module.exports = {
       padding: "2rem"
     },
     colors: {
-      primary: '#5c6ac4',
+      primary: '#312e81',
       secondary: '#ecc94b',
+    },
+    fontFamily: {
+      profile: ['Oswald']
     }
   },
   plugins: [],

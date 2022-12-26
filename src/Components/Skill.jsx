@@ -1,7 +1,7 @@
 import React from "react";
 import { BsDot } from "react-icons/bs";
 
-function Skill() {
+function Skill({ className }) {
   const [skills] = React.useState([
     { name: "C#", level: "Proficient" },
     { name: "NodeJS", level: "Proficient" },
@@ -14,7 +14,7 @@ function Skill() {
   ]);
 
   return (
-    <div>
+    <div className={className}>
       <h2 className="uppercase text-xl font-bold border-b-4 text-primary">Skills</h2>
       <ul className="mt-3">
         {skills.map((ii) => (
