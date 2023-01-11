@@ -9,7 +9,7 @@ import { ReactComponent as WaveSVG } from "./Assets/wave.svg";
 
 function App() {
   return (
-    <div className="container my-24">
+    <div className="container my-24 print:my-4">
       <div
         className="fixed top-0 bottom-0 left-0 right-0 print:hidden"
         style={{ zIndex: -1 }}
@@ -17,16 +17,16 @@ function App() {
         <WaveSVG />
       </div>
 
-      <div className="md:flex">
-        <div className="flex-initial md:w-96">
-          <ProfileImage className="ml-auto mr-auto mb-12" />
-          <ProfileName className="mb-12 text-center block md:hidden" />
-          <Profile className="mb-10 md:pr-24" />
-          <ContactInfo className="mb-10 md:pr-24" />
-          <Skill className="mb-10 md:pr-24" />
+      <div className="md:flex print:flex">
+        <div className="md:w-96 print:w-72">
+          <ProfileImage className="ml-auto mr-auto mb-12 print:ml-8 print:mr-0 print:mb-10" />
+          <ProfileName className="mb-12 text-center block md:hidden print:hidden" />
+          <Profile className="mb-10 mr-6" />
+          <ContactInfo className="mb-10 mr-6" />
+          <Skill className="mb-10 mr-6" />
         </div>
         <div>
-          <ProfileName className="mb-24 hidden md:block" />
+          <ProfileName className="mb-24 hidden md:block print:block print:mb-8" />
           <WorkExperience className="mb-10" />
           <Education className="mb-10" />
         </div>

@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders profile', () => {
   render(<App />);
-  const nameElement = screen.getByText(/Amiel Hussien A. Dagadas/i);
-  expect(nameElement).toBeInTheDocument();
+  const nameElement = screen.getAllByText(/Amiel Hussien A. Dagadas/i);
+  expect(nameElement.length).toBe(2);
 });

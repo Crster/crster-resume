@@ -21,8 +21,8 @@ function Education() {
       <h2 className="uppercase text-xl font-bold border-b-4 text-primary mb-3">
         Education
       </h2>
-      {educations.map((ii) => (
-        <div className="flex flex-col mb-6">
+      {educations.map((ii, key) => (
+        <div key={key} className="flex flex-col mb-6">
           <span>{ii.date}</span>
           <span className="text-lg font-bold text-primary">{ii.school}</span>
           <span>{ii.course}</span>

@@ -8,4 +8,9 @@
   html {
     font-family: 'Noto Sans JP', system-ui, sans-serif;
   }
+
+  body{
+    -webkit-print-color-adjust:exact !important;
+    print-color-adjust:exact !important;
+  }
 }

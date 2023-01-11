@@ -1,9 +1,9 @@
 function Profile({ className }) {
   return (
     <div className={className}>
-      <h2 className="uppercase text-xl font-bold border-b-4 text-primary">Profile</h2>
-      <p className="mt-3">
-        I am an experienced software engineer that is constantly looking for innovative solutions to daily challenges. In my ten years doing software development, I've honed my analytical thinking and collaboration skills, and I love working with a team. In addition, I had the opportunity to lead three projects with Four13 Group as a software engineer.
+      <h2 className="uppercase text-xl font-bold border-b-4 text-primary">About Me</h2>
+      <p className="mt-3 text-sm">
+      I am a developer with extensive experience in creating and maintaining web applications. My skills include proficiency in front-end technologies such as React and Xaml, as well as back-end languages such as Node.js and dotnet. I have a deep understanding of database management using MySQL and MongoDB, and am well-versed in Agile development methodologies. I am a quick learner, and am always seeking to improve my skills and stay up-to-date with the latest trends in web development.
       </p>
     </div>
   );
