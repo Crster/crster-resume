@@ -7,11 +7,11 @@ function Skill({ className }) {
     { name: "MAUI", level: "Novice" },
     { name: "NodeJS", level: "Proficient" },
     { name: "React", level: "Proficient" },
-    { name: "VueJS", level: "Intermediate" },
+    { name: "VueJS", level: "Novice" },
     { name: "ExpressJS", level: "Proficient" },
     { name: "Mongodb", level: "Proficient" },
     { name: "MySQL", level: "Proficient" },
-    { name: "Typescript", level: "Novice" },
+    { name: "Typescript", level: "Intermediate" },
     { name: "Java", level: "Novice" },
     { name: "Php", level: "Novice" }
   ]);

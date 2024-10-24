@@ -3,6 +3,15 @@ import React from "react";
 function WorkExperience({ className }) {
   const [experiences] = React.useState([
     {
+      project: "Metasimz Backend",
+      company: "Metasimz - Quebec, CA (Remote)",
+      link: "https://metasimz.com/",
+      date: "2022 - 2024",
+      skills: ["NextJS", "DynamoDb", "Gamelift", "Tailwind Css"],
+      description:
+        "Metasimz is an startup company specializing in developing innovative virtual reality and mobile gaming experience.",
+    },
+    {
       project: "Replen Dashboard",
       company: "Four13 Group - Minnesota, US (Remote)",
       link: "https://www.replendashboard.com/",
@@ -16,7 +25,7 @@ function WorkExperience({ className }) {
       company: "Four13 Group - Minnesota, US (Remote)",
       link: "https://coitracker.com/",
       date: "2019 - 2020",
-      skills: ["React", "Lambda Function", "GraphQL", "OpenCV", "Java"],
+      skills: ["React", "AWS Lambda", "GraphQL", "OpenCV", "Java"],
       description:
         "Powerful certificate tracking system that scans, reads, captures and organizes document automatically",
     },
@@ -34,7 +43,7 @@ function WorkExperience({ className }) {
       company: "360 Logix - Manila, PH",
       link: "https://www.360logix.com/project/claropos",
       date: "2016 - 2018",
-      skills: ["C#", "Express JS", "Xaml", "MySQL"],
+      skills: ["C#", "Express JS", "WPF", "MySQL"],
       description:
         "A multi-tenant POS system that allows multiple businesses to share the same infrastructure and resources for inventory management, sales reporting and more.",
     },
