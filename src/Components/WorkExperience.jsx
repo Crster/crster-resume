@@ -3,11 +3,20 @@ import React from "react";
 function WorkExperience({ className }) {
   const [experiences] = React.useState([
     {
+      project: "Fullstack Developer",
+      company: "Hike Outdoor - Florida, US (Remote)",
+      link: "https://hike-footwear.com/",
+      date: "2024 - 2025",
+      skills: ["NestJS", "Tailwind", "Typescript", "Prisma", "Shopify Admin"],
+      description:
+        "Worked as an in house developer to develop purchasing and inventory management system for Hike Outdoor.",
+    },
+    {
       project: "Metasimz Backend",
       company: "Metasimz - Quebec, CA (Remote)",
       link: "https://metasimz.com/",
       date: "2022 - 2024",
-      skills: ["NextJS", "DynamoDb", "Gamelift", "Tailwind Css"],
+      skills: ["NextJS", "DynamoDb", "Gamelift", "Web3.js"],
       description:
         "Metasimz is an startup company specializing in developing innovative virtual reality and mobile gaming experience.",
     },
